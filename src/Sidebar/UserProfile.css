@@ -1,0 +1,53 @@
+.sidebar__Profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid gray;
+  background-color: #2f3135;
+}
+
+.sidebar__profileInfo {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.sidebar__profileInfo > div {
+  margin-left: 10px;
+}
+
+.sidebar__profileInfo > div > h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.sidebar__profileInfo > div > p {
+  color: gray;
+}
+
+.sidebar__profileIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root:hover {
+  color: white; 
+}
+
+
+.MuiTooltip-tooltip {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+.MuiTooltip-arrow {
+  color: #616161;
+}

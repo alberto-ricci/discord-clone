@@ -1,0 +1,52 @@
+.message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.message__info {
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.message__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.message__extra {
+  display: flex;
+  align-items: center;
+}
+
+.message__timestamp {
+  color: grey;
+  margin-right: 20px;
+  font-size: x-small;
+}
+
+.message__link a {
+  text-decoration: underline;
+  color: lightblue;
+}
+
+.message__link a:hover {
+  color: dodgerblue;
+}
+
+.message__link a:active {
+  color: darkblue;
+}
+
+.message__link a:visited {
+  color: purple;
+}
+
+.message__gif {
+  max-width: 100%;
+  max-height: 250px;
+  margin: 10px 0;
+  border-radius: 10px;
+}

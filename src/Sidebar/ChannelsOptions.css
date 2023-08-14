@@ -1,0 +1,37 @@
+.channelsOptions__icon {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;;
+  color: grey;
+  margin: 0 5px;
+}
+
+.channelsOptions__icon:hover {
+  color: #738adb;
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.LockIcon {
+  animation: fadeIn 0.3s;
+}
+
+.LockOpenIcon {
+  animation: fadeOut 0.3s;
+}

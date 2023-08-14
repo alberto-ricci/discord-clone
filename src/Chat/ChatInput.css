@@ -1,0 +1,94 @@
+/* Main chat input container styling */
+.chat__input {
+  color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+  border-top: 1px solid gray;
+  background-color: #474b53;
+  transition: all 0.3s ease-in-out; /* For smoother transitions */
+}
+
+.chat__input:hover {
+  background-color: #525660;
+}
+
+/* Input form styles */
+.chat__input > form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.chat__input > form > input {
+  padding: 15px;
+  background: transparent;
+  border: none;
+  width: 100%;
+  outline-width: 0;
+  color: white;
+  font-size: large;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.chat__input > form > input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.chat__inputButton {
+  display: none;
+}
+
+/* Gif related styles */
+.chat__input > form > div {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+}
+
+.chat__input > form > div > img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+/* Icon styles */
+.chat__inputIcons > .MuiSvgIcon-root {
+  padding: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.chat__inputIcons > .MuiSvgIcon-root:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%; /* for a rounded hover effect */
+  transform: scale(1.1);
+}
+
+.chat__inputIcons > .MuiSvgIcon-root.active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.chat__input > form > div > .close-gif-icon {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+.chat__input > form > div > .close-gif-icon:hover {
+  background-color: #f0f0f0;
+}

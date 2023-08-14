@@ -1,0 +1,15 @@
+.chat__messages {
+    flex: 1;
+    overflow: scroll;
+    flex-direction: column-reverse; 
+    overflow-y: auto;
+}
+
+.chat__messages::-webkit-scrollbar {
+    display: none;
+}
+
+.chat__messages {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}

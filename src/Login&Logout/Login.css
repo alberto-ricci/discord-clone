@@ -1,0 +1,171 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #2f3135;
+  padding: 0 10px;
+}
+
+.login__logo {
+  margin-bottom: 20px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.login > button {
+  width: 100%;
+  max-width: 300px;
+  padding: 15px 0;
+  background-color: #738adb;
+  color: #eff2f5;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.login > button:hover {
+  background-color: #667db6;
+  color: #ffffff;
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projectName {
+  text-align: center;
+  color: #eff2f5;
+  margin-bottom: 30px;
+}
+
+.projectName > h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #738adb;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px;
+}
+
+.projectName > h3 {
+  font-size: 1.2em;
+  color: #b3b8c1;
+  font-weight: 600;
+}
+
+.projectName .logo {
+  width: 33px;
+  height: 33px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.mainFunctions {
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mainFunctions h4 {
+  color: #b3b8c1;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.mainFunctions ul {
+  list-style-type: none;
+  padding-left: 0; /* Remove padding since we don't have bullets */
+  margin-top: 10px; /* Space between the ul and the h4 */
+}
+
+.mainFunctions li {
+  color: #eff2f5;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  padding-left: 10px;
+}
+
+.madeBy {
+  border-top: 2px solid #738adb;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .login {
+    padding: 5px;
+  }
+
+  .login__logo {
+    height: 100px;
+  }
+
+  .login > button {
+    font-size: 0.8rem;
+    max-width: 250px;
+  }
+
+  .projectName > h2 {
+    font-size: 1.2em;
+  }
+
+  .projectName > h3 {
+    font-size: 1em;
+  }
+
+  .mainFunctions {
+    padding: 10px;
+  }
+
+  .mainFunctions li {
+    font-size: 0.9rem;
+  }
+
+  .projectName .logo {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login {
+    padding: 3px;
+  }
+
+  .login__logo {
+    height: 80px;
+  }
+
+  .login > button {
+    font-size: 0.7rem;
+    max-width: 230px;
+  }
+
+  .projectName > h2 {
+    font-size: 1em;
+  }
+
+  .projectName > h3 {
+    font-size: 0.8em;
+  }
+
+  .mainFunctions {
+    padding: 5px;
+  }
+
+  .mainFunctions li {
+    font-size: 0.8rem;
+  }
+
+  .projectName .logo {
+    width: 24px;
+    height: 24px;
+  }
+}

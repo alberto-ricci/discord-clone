@@ -1,0 +1,57 @@
+.usersOnline {
+  padding: 10px;
+  background-color: #2f3135;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  overflow-y: auto;
+}
+
+.userOnline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+.notClickable {
+  pointer-events: none;
+  cursor: default;
+}
+
+.userOnline:hover {
+  background-color: #40464b;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.userOnline__content {
+  display: flex;
+  align-items: center;
+}
+
+.userOnline img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userOnline h4 {
+  flex-grow: 1;
+  margin: 0;
+  font-weight: normal;
+  font-size: 12px;
+  transition: color 0.3s ease-in-out;
+}
+
+.greenDot {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+  box-shadow: 0 0 5px green;
+}

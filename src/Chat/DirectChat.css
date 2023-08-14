@@ -1,0 +1,113 @@
+:root {
+  --primary-bg: #2f3135;
+  --secondary-bg: #40464b;
+  --border-color: #26282c;
+  --primary-color: white;
+  --secondary-color: gray;
+  --highlight-color: #738adb;
+  --active-color: #4fb185;
+  --scrollbar-color: #888;
+  --scrollbar-hover-color: #555;
+}
+
+.MuiDialog-paper {
+  width: 90%;
+  max-width: 500px; /
+}
+
+.MuiDialog-paper .sender,
+.MuiDialog-paper .receiver {
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin: 8px 15px;
+  max-width: 70%;
+  word-wrap: break-word;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MuiDialog-paper .sender {
+  align-self: flex-end;
+  background-color: var(--active-color);
+  color: var(--primary-color);
+  border-top-right-radius: 3px;
+}
+
+.MuiDialog-paper .receiver {
+  align-self: flex-start;
+  background-color: var(--highlight-color);
+  color: var(--primary-color);
+  border-top-left-radius: 3px;
+}
+
+.MuiDialog-paper .sender a,
+.MuiDialog-paper .receiver a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+.MuiDialog-paper .sender a:hover,
+.MuiDialog-paper .receiver a:hover {
+  text-decoration: underline;
+}
+
+.MuiDialogContent-root {
+  overflow-y: scroll;
+  max-height: 400px; 
+}
+
+.MuiDialogContent-root::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--primary-bg);
+}
+
+.MuiDialogContent-root::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 4px;
+}
+
+.MuiDialogContent-root::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-hover-color);
+}
+
+.MuiDialog-paper input {
+  padding: 8px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  width: 80%;
+  background-color: var(--secondary-bg);
+  margin-right: 10px;
+  color: var(--primary-color);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.MuiDialog-paper input::placeholder {
+  color: var(--secondary-color);
+}
+
+
+.MuiDialog-paper .sender,
+.MuiDialog-paper .receiver {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  line-height: 1.4;
+}
+
+
+.MuiDialog-paper div > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+
+.MuiDialog-paper .MuiTooltip-title:hover {
+  color: var(--highlight-color);
+}
+
+.MuiDialog-paper .MuiTooltip-title:active {
+  transform: scale(0.95);
+  color: var(--active-color);
+}

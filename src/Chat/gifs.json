@@ -1,0 +1,63 @@
+[
+    {
+      "id": "abc123",
+      "url": "https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif",
+      "title": "Funny GIF"
+    },
+    {
+      "id": "def456",
+      "url": "https://media.giphy.com/media/h408T6Y5GfmXBKW62l/giphy.gif",
+      "title": "Happy GIF"
+    },
+    {
+      "id": "ghi789",
+      "url": "https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif",
+      "title": "Excited GIF"
+    },
+    {
+      "id": "jkl1011",
+      "url": "https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif",
+      "title": "Surprised GIF Replaced"
+    },
+    {
+      "id": "mno1213",
+      "url": "https://media.giphy.com/media/JoZkfMCF9hhXa/giphy.gif",
+      "title": "Thinking GIF Replaced"
+    },
+    {
+      "id": "pqr1415",
+      "url": "https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif",
+      "title": "Dancing GIF"
+    },
+    {
+      "id": "stu1617",
+      "url": "https://media.giphy.com/media/3og0IAzB7lmOo2q0Ss/giphy.gif",
+      "title": "Laughing GIF"
+    },
+    {
+      "id": "vwx1819",
+      "url": "https://media.giphy.com/media/fwbZnTftCXVocKzfxR/giphy.gif",
+      "title": "Thumbs up GIF"
+    },
+    {
+      "id": "yza2021",
+      "url": "https://media.giphy.com/media/l4HodBpDmoMA5p9bG/giphy.gif",
+      "title": "Nod GIF"
+    },
+    {
+      "id": "bcd2223",
+      "url": "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
+      "title": "Cats GIF"
+    },
+    {
+      "id": "def2425",
+      "url": "https://media.giphy.com/media/iFmw13LVfdZmogzZLi/giphy.gif",
+      "title": "Dog GIF"
+    },
+    {
+      "id": "ghi2627",
+      "url": "https://media.giphy.com/media/5xtDarzp5at2qwSTYoo/giphy.gif",
+      "title": "Facepalm GIF"
+    }
+  ]
+  
